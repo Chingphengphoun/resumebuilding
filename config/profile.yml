@@ -1,0 +1,75 @@
+# Career-Ops Profile Configuration
+# Source of truth for personal data across all modes.
+
+candidate:
+  full_name: "Chingpheng Phoun"
+  email: "cp.phoun@gmail.com"
+  phone: ""
+  location: "Lebanon, NH"
+  linkedin: "linkedin.com/in/chingphengphoun"
+  portfolio_url: "https://journeys.dartmouth.edu/chingphengphoun"
+  github: ""
+  twitter: ""
+  # canva_resume_design_id: "DAxxxxxxxxx"
+
+target_roles:
+  primary:
+    - "Mechanical Design Engineer"
+    - "Product Development Engineer"
+    - "Manufacturing/Process Engineer"
+  archetypes:
+    - name: "Mechanical Design Engineer"
+      level: "Entry/Mid"
+      fit: "primary"
+    - name: "Product Development Engineer"
+      level: "Entry/Mid"
+      fit: "primary"
+    - name: "Manufacturing/Process Engineer"
+      level: "Entry/Mid"
+      fit: "secondary"
+    - name: "Additive Manufacturing Engineer"
+      level: "Entry/Mid"
+      fit: "secondary"
+    - name: "Design for Manufacturing Specialist"
+      level: "Entry/Mid"
+      fit: "adjacent"
+    - name: "Sustainability/Impact Engineer"
+      level: "Entry/Mid"
+      fit: "adjacent"
+
+narrative:
+  headline: "Mechanical engineer combining rigorous design skills with real-world manufacturing execution"
+  exit_story: "MEng + BE from Dartmouth. CSWP certified. Designed and deployed 50 stoves in Cambodia. Led capstone team cutting campus salt waste 900+ tons/year via ML-powered weather prediction."
+  superpowers:
+    - "CAD/FEA full cycle (concept to validated design)"
+    - "Hands-on manufacturing (lathe, mill, 3D printing, sintering)"
+    - "Real-world product deployment under constraints"
+  proof_points:
+    - name: "SubZero Systems — Salt Reduction"
+      url: "https://journeys.dartmouth.edu/chingphengphoun"
+      hero_metric: "900+ tons campus salt reduction annually"
+    - name: "Reviving Rust — Cambodia Stoves"
+      url: "https://journeys.dartmouth.edu/chingphengphoun"
+      hero_metric: "50 eco-friendly cooking stoves deployed"
+    - name: "Truss Bridge Design & Competition"
+      url: "https://journeys.dartmouth.edu/chingphengphoun"
+      hero_metric: "FEA-validated, fabricated, tested against Instron data"
+    - name: "3D-Printed Copper Components Research"
+      url: "https://journeys.dartmouth.edu/chingphengphoun"
+      hero_metric: "Instron + SEM material characterization"
+
+compensation:
+  target_range: "$60K-$85K"
+  currency: "USD"
+  minimum: "$60K"
+  location_flexibility: "Open to relocation, especially manufacturing hubs (MA, CT, OH, IL)"
+
+location:
+  country: "United States"
+  city: "Lebanon, NH"
+  timezone: "EST"
+  visa_status: "No sponsorship needed"
+  relocation: "Open to relocation for the right opportunity"
+
+language:
+  modes_dir: "modes"   # change to "modes/de" or "modes/fr" for localized modes
